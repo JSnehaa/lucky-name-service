@@ -1,0 +1,144 @@
+2020-02-25 08:41:31,558 INFO c.c.LuckyNameServiceApplication [restartedMain] Starting LuckyNameServiceApplication on Ashishs-MacBook-Pro.local with PID 1303 (/Users/ashishbankar/projects/lucky-name-service/target/classes started by ashishbankar in /Users/ashishbankar/projects/lucky-name-service)
+2020-02-25 08:41:31,577 DEBUG c.c.LuckyNameServiceApplication [restartedMain] Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2020-02-25 08:41:31,578 INFO c.c.LuckyNameServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-25 08:41:35,848 INFO c.c.LuckyNameServiceApplication [restartedMain] Started LuckyNameServiceApplication in 4.75 seconds (JVM running for 11.384)
+2020-02-25 08:41:58,262 INFO c.c.a.LoggingAspect [http-nio-8080-exec-9] checkLuckyName: Started
+2020-02-25 08:41:58,282 DEBUG c.c.a.LoggingAspect [http-nio-8080-exec-9] Processing request for Name :ashishDOB : 10/12/2019
+2020-02-25 08:41:58,282 INFO c.c.a.LoggingAspect [http-nio-8080-exec-9] Inside Validation
+2020-02-25 08:41:58,284 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-9] Converting string to date 10/12/2019
+2020-02-25 08:41:58,286 INFO c.c.a.LoggingAspect [http-nio-8080-exec-9] checkLuckyName: Started
+2020-02-25 08:41:58,297 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Inside Service :ashish  10/12/2019
+2020-02-25 08:41:58,297 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-9] Converting string to date 10/12/2019
+2020-02-25 08:41:58,301 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Created Lucky RequestLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:41:58,301 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-9] Converting date to Number 2019-12-10
+2020-02-25 08:41:58,308 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Inside calculateDigitsSum: 10122019
+2020-02-25 08:41:58,308 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Inside calculateDigitsSum: ASHISH
+2020-02-25 08:41:58,309 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Inside calculateDigitsSum: 64
+2020-02-25 08:41:58,309 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Not a lucky name , Checking for lucky namesLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:41:58,309 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Generating lucky names 
+2020-02-25 08:41:58,310 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Generating lucky name with additional character 
+2020-02-25 08:41:58,310 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Shuffling the characters to  create additional names 
+2020-02-25 08:41:58,311 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Shuffling the characters to  create additional names 
+2020-02-25 08:41:58,311 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-9] Shuffling the characters to  create additional names 
+2020-02-25 08:41:58,315 INFO c.c.a.LoggingAspect [http-nio-8080-exec-9] checkLuckyName: Exit
+2020-02-25 08:41:58,316 INFO c.c.a.LoggingAspect [http-nio-8080-exec-9] checkLuckyName: Exit
+2020-02-25 08:42:03,711 INFO c.c.a.LoggingAspect [http-nio-8080-exec-10] checkLuckyName: Started
+2020-02-25 08:42:03,712 DEBUG c.c.a.LoggingAspect [http-nio-8080-exec-10] Processing request for Name :ashishDOB : 10/12/2019
+2020-02-25 08:42:03,712 INFO c.c.a.LoggingAspect [http-nio-8080-exec-10] Inside Validation
+2020-02-25 08:42:03,712 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-10] Converting string to date 10/12/2019
+2020-02-25 08:42:03,712 INFO c.c.a.LoggingAspect [http-nio-8080-exec-10] checkLuckyName: Started
+2020-02-25 08:42:03,712 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Inside Service :ashish  10/12/2019
+2020-02-25 08:42:03,712 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-10] Converting string to date 10/12/2019
+2020-02-25 08:42:03,712 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Created Lucky RequestLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:03,713 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-10] Converting date to Number 2019-12-10
+2020-02-25 08:42:03,713 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Inside calculateDigitsSum: 10122019
+2020-02-25 08:42:03,713 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Inside calculateDigitsSum: ASHISH
+2020-02-25 08:42:03,713 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Inside calculateDigitsSum: 64
+2020-02-25 08:42:03,713 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Not a lucky name , Checking for lucky namesLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:03,713 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Generating lucky names 
+2020-02-25 08:42:03,713 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Generating lucky name with additional character 
+2020-02-25 08:42:03,713 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Shuffling the characters to  create additional names 
+2020-02-25 08:42:03,713 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Shuffling the characters to  create additional names 
+2020-02-25 08:42:03,714 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-10] Shuffling the characters to  create additional names 
+2020-02-25 08:42:03,714 INFO c.c.a.LoggingAspect [http-nio-8080-exec-10] checkLuckyName: Exit
+2020-02-25 08:42:03,714 INFO c.c.a.LoggingAspect [http-nio-8080-exec-10] checkLuckyName: Exit
+2020-02-25 08:42:04,350 INFO c.c.a.LoggingAspect [http-nio-8080-exec-1] checkLuckyName: Started
+2020-02-25 08:42:04,350 DEBUG c.c.a.LoggingAspect [http-nio-8080-exec-1] Processing request for Name :ashishDOB : 10/12/2019
+2020-02-25 08:42:04,350 INFO c.c.a.LoggingAspect [http-nio-8080-exec-1] Inside Validation
+2020-02-25 08:42:04,350 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-1] Converting string to date 10/12/2019
+2020-02-25 08:42:04,351 INFO c.c.a.LoggingAspect [http-nio-8080-exec-1] checkLuckyName: Started
+2020-02-25 08:42:04,354 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Inside Service :ashish  10/12/2019
+2020-02-25 08:42:04,357 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-1] Converting string to date 10/12/2019
+2020-02-25 08:42:04,357 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Created Lucky RequestLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:04,357 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-1] Converting date to Number 2019-12-10
+2020-02-25 08:42:04,358 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Inside calculateDigitsSum: 10122019
+2020-02-25 08:42:04,358 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Inside calculateDigitsSum: ASHISH
+2020-02-25 08:42:04,358 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Inside calculateDigitsSum: 64
+2020-02-25 08:42:04,358 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Not a lucky name , Checking for lucky namesLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:04,358 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Generating lucky names 
+2020-02-25 08:42:04,358 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Generating lucky name with additional character 
+2020-02-25 08:42:04,358 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Shuffling the characters to  create additional names 
+2020-02-25 08:42:04,358 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Shuffling the characters to  create additional names 
+2020-02-25 08:42:04,359 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-1] Shuffling the characters to  create additional names 
+2020-02-25 08:42:04,359 INFO c.c.a.LoggingAspect [http-nio-8080-exec-1] checkLuckyName: Exit
+2020-02-25 08:42:04,359 INFO c.c.a.LoggingAspect [http-nio-8080-exec-1] checkLuckyName: Exit
+2020-02-25 08:42:04,913 INFO c.c.a.LoggingAspect [http-nio-8080-exec-2] checkLuckyName: Started
+2020-02-25 08:42:04,914 DEBUG c.c.a.LoggingAspect [http-nio-8080-exec-2] Processing request for Name :ashishDOB : 10/12/2019
+2020-02-25 08:42:04,915 INFO c.c.a.LoggingAspect [http-nio-8080-exec-2] Inside Validation
+2020-02-25 08:42:04,915 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-2] Converting string to date 10/12/2019
+2020-02-25 08:42:04,915 INFO c.c.a.LoggingAspect [http-nio-8080-exec-2] checkLuckyName: Started
+2020-02-25 08:42:04,916 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Inside Service :ashish  10/12/2019
+2020-02-25 08:42:04,916 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-2] Converting string to date 10/12/2019
+2020-02-25 08:42:04,918 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Created Lucky RequestLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:04,918 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-2] Converting date to Number 2019-12-10
+2020-02-25 08:42:04,919 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Inside calculateDigitsSum: 10122019
+2020-02-25 08:42:04,919 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Inside calculateDigitsSum: ASHISH
+2020-02-25 08:42:04,919 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Inside calculateDigitsSum: 64
+2020-02-25 08:42:04,920 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Not a lucky name , Checking for lucky namesLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:04,920 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Generating lucky names 
+2020-02-25 08:42:04,921 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Generating lucky name with additional character 
+2020-02-25 08:42:04,921 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Shuffling the characters to  create additional names 
+2020-02-25 08:42:04,922 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Shuffling the characters to  create additional names 
+2020-02-25 08:42:04,922 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-2] Shuffling the characters to  create additional names 
+2020-02-25 08:42:04,922 INFO c.c.a.LoggingAspect [http-nio-8080-exec-2] checkLuckyName: Exit
+2020-02-25 08:42:04,922 INFO c.c.a.LoggingAspect [http-nio-8080-exec-2] checkLuckyName: Exit
+2020-02-25 08:42:07,878 INFO c.c.a.LoggingAspect [http-nio-8080-exec-3] checkLuckyName: Started
+2020-02-25 08:42:07,878 DEBUG c.c.a.LoggingAspect [http-nio-8080-exec-3] Processing request for Name :ashishDOB : 10/12/2019
+2020-02-25 08:42:07,878 INFO c.c.a.LoggingAspect [http-nio-8080-exec-3] Inside Validation
+2020-02-25 08:42:07,878 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-3] Converting string to date 10/12/2019
+2020-02-25 08:42:07,879 INFO c.c.a.LoggingAspect [http-nio-8080-exec-3] checkLuckyName: Started
+2020-02-25 08:42:07,879 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Inside Service :ashish  10/12/2019
+2020-02-25 08:42:07,879 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-3] Converting string to date 10/12/2019
+2020-02-25 08:42:07,879 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Created Lucky RequestLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:07,879 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-3] Converting date to Number 2019-12-10
+2020-02-25 08:42:07,879 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Inside calculateDigitsSum: 10122019
+2020-02-25 08:42:07,879 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Inside calculateDigitsSum: ASHISH
+2020-02-25 08:42:07,879 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Inside calculateDigitsSum: 64
+2020-02-25 08:42:07,880 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Not a lucky name , Checking for lucky namesLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:07,880 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Generating lucky names 
+2020-02-25 08:42:07,880 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Generating lucky name with additional character 
+2020-02-25 08:42:07,880 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Shuffling the characters to  create additional names 
+2020-02-25 08:42:07,880 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Shuffling the characters to  create additional names 
+2020-02-25 08:42:07,880 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-3] Shuffling the characters to  create additional names 
+2020-02-25 08:42:07,880 INFO c.c.a.LoggingAspect [http-nio-8080-exec-3] checkLuckyName: Exit
+2020-02-25 08:42:07,880 INFO c.c.a.LoggingAspect [http-nio-8080-exec-3] checkLuckyName: Exit
+2020-02-25 08:42:09,047 INFO c.c.a.LoggingAspect [http-nio-8080-exec-4] checkLuckyName: Started
+2020-02-25 08:42:09,048 DEBUG c.c.a.LoggingAspect [http-nio-8080-exec-4] Processing request for Name :ashishDOB : 10/12/2019
+2020-02-25 08:42:09,048 INFO c.c.a.LoggingAspect [http-nio-8080-exec-4] Inside Validation
+2020-02-25 08:42:09,048 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-4] Converting string to date 10/12/2019
+2020-02-25 08:42:09,049 INFO c.c.a.LoggingAspect [http-nio-8080-exec-4] checkLuckyName: Started
+2020-02-25 08:42:09,049 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Inside Service :ashish  10/12/2019
+2020-02-25 08:42:09,049 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-4] Converting string to date 10/12/2019
+2020-02-25 08:42:09,050 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Created Lucky RequestLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:09,050 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-4] Converting date to Number 2019-12-10
+2020-02-25 08:42:09,050 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Inside calculateDigitsSum: 10122019
+2020-02-25 08:42:09,050 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Inside calculateDigitsSum: ASHISH
+2020-02-25 08:42:09,051 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Inside calculateDigitsSum: 64
+2020-02-25 08:42:09,051 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Not a lucky name , Checking for lucky namesLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:09,051 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Generating lucky names 
+2020-02-25 08:42:09,051 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Generating lucky name with additional character 
+2020-02-25 08:42:09,051 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Shuffling the characters to  create additional names 
+2020-02-25 08:42:09,052 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Shuffling the characters to  create additional names 
+2020-02-25 08:42:09,052 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-4] Shuffling the characters to  create additional names 
+2020-02-25 08:42:09,052 INFO c.c.a.LoggingAspect [http-nio-8080-exec-4] checkLuckyName: Exit
+2020-02-25 08:42:09,053 INFO c.c.a.LoggingAspect [http-nio-8080-exec-4] checkLuckyName: Exit
+2020-02-25 08:42:10,258 INFO c.c.a.LoggingAspect [http-nio-8080-exec-5] checkLuckyName: Started
+2020-02-25 08:42:10,258 DEBUG c.c.a.LoggingAspect [http-nio-8080-exec-5] Processing request for Name :ashishDOB : 10/12/2019
+2020-02-25 08:42:10,258 INFO c.c.a.LoggingAspect [http-nio-8080-exec-5] Inside Validation
+2020-02-25 08:42:10,258 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-5] Converting string to date 10/12/2019
+2020-02-25 08:42:10,259 INFO c.c.a.LoggingAspect [http-nio-8080-exec-5] checkLuckyName: Started
+2020-02-25 08:42:10,260 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Inside Service :ashish  10/12/2019
+2020-02-25 08:42:10,260 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-5] Converting string to date 10/12/2019
+2020-02-25 08:42:10,260 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Created Lucky RequestLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:10,261 INFO c.c.e.AppExceptionHandler [http-nio-8080-exec-5] Converting date to Number 2019-12-10
+2020-02-25 08:42:10,261 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Inside calculateDigitsSum: 10122019
+2020-02-25 08:42:10,261 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Inside calculateDigitsSum: ASHISH
+2020-02-25 08:42:10,261 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Inside calculateDigitsSum: 64
+2020-02-25 08:42:10,261 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Not a lucky name , Checking for lucky namesLuckyRequest{name='ASHISH', dateOfBirth=2019-12-10}
+2020-02-25 08:42:10,262 INFO c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Generating lucky names 
+2020-02-25 08:42:10,262 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Generating lucky name with additional character 
+2020-02-25 08:42:10,262 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Shuffling the characters to  create additional names 
+2020-02-25 08:42:10,262 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Shuffling the characters to  create additional names 
+2020-02-25 08:42:10,263 DEBUG c.c.s.LuckyServiceImpl [http-nio-8080-exec-5] Shuffling the characters to  create additional names 
+2020-02-25 08:42:10,263 INFO c.c.a.LoggingAspect [http-nio-8080-exec-5] checkLuckyName: Exit
+2020-02-25 08:42:10,263 INFO c.c.a.LoggingAspect [http-nio-8080-exec-5] checkLuckyName: Exit
